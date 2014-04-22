@@ -1,11 +1,11 @@
 <?php
 
-namespace Chitanka\LibBundle\Entity;
+namespace App\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 
 /**
-* @ORM\Entity(repositoryClass="Chitanka\LibBundle\Entity\WorkEntryRepository")
+* @ORM\Entity(repositoryClass="App\Entity\WorkEntryRepository")
 * @ORM\Table(name="work_entry",
 *	indexes={
 *		@ORM\Index(name="title_idx", columns={"title"}),
@@ -20,7 +20,7 @@ class WorkEntry extends Entity
 	 * @ORM\Column(type="integer")
 	 * @ORM\Id
 	 * @ORM\GeneratedValue(strategy="CUSTOM")
-	 * @ORM\CustomIdGenerator(class="Chitanka\LibBundle\Doctrine\CustomIdGenerator")
+	 * @ORM\CustomIdGenerator(class="App\Doctrine\CustomIdGenerator")
 	 */
 	private $id;
 

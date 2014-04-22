@@ -1,6 +1,6 @@
 <?php
 
-namespace Chitanka\LibBundle\Entity;
+namespace App\Entity;
 
 /**
  *

@@ -1,12 +1,12 @@
 <?php
 
-namespace Chitanka\LibBundle\Command;
+namespace App\Command;
 
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Output\OutputInterface;
-use Chitanka\LibBundle\Entity\WorkEntry;
-use Chitanka\LibBundle\Service\Notifier;
+use App\Entity\WorkEntry;
+use App\Service\Notifier;
 
 class NotifyUsersForOldWorkEntriesCommand extends CommonDbCommand
 {

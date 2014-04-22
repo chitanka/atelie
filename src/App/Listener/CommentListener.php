@@ -1,11 +1,11 @@
 <?php
-namespace Chitanka\LibBundle\Listener;
+namespace App\Listener;
 
 use Doctrine\ORM\EntityManager;
 use FOS\CommentBundle\Event\CommentEvent;
 use FOS\CommentBundle\Event\ThreadEvent;
-use Chitanka\LibBundle\Service\Notifier;
-use Chitanka\LibBundle\Entity\Comment;
+use App\Service\Notifier;
+use App\Entity\Comment;
 
 class CommentListener
 {

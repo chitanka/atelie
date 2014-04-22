@@ -1,6 +1,6 @@
 <?php
 
-namespace Chitanka\LibBundle\Entity;
+namespace App\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 
@@ -18,7 +18,7 @@ class WorkContrib extends Entity
 	 * @ORM\Column(type="integer")
 	 * @ORM\Id
 	 * @ORM\GeneratedValue(strategy="CUSTOM")
-	 * @ORM\CustomIdGenerator(class="Chitanka\LibBundle\Doctrine\CustomIdGenerator")
+	 * @ORM\CustomIdGenerator(class="App\Doctrine\CustomIdGenerator")
 	 */
 	private $id;
 

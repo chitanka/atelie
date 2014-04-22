@@ -1,15 +1,15 @@
 <?php
-namespace Chitanka\LibBundle\Legacy;
+namespace App\Legacy;
 
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
-use Chitanka\LibBundle\Util\String;
-use Chitanka\LibBundle\Util\Number;
-use Chitanka\LibBundle\Util\Char;
-use Chitanka\LibBundle\Util\File;
-use Chitanka\LibBundle\Entity\User;
-use Chitanka\LibBundle\Entity\WorkEntry;
-use Chitanka\LibBundle\Entity\WorkEntryRepository;
-use Chitanka\LibBundle\Pagination\Pager;
+use App\Util\String;
+use App\Util\Number;
+use App\Util\Char;
+use App\Util\File;
+use App\Entity\User;
+use App\Entity\WorkEntry;
+use App\Entity\WorkEntryRepository;
+use App\Pagination\Pager;
 
 class WorkPage extends Page {
 

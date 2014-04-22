@@ -1,6 +1,6 @@
 <?php
 
-namespace Chitanka\LibBundle\Controller;
+namespace App\Controller;
 
 use Symfony\Component\HttpKernel\Exception\HttpException;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
